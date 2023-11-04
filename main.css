@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    /* margin - margen del elemento*/
+    padding: 0;
+    /* Fuentes del texto */
+    font-family: Arial, Helvetica, sams-serif;
+    font-size: 12px;
+}
+.midoria{
+    width: 35px;
+    height: 100%;
+    border-radius: 100%;
+}
+
+header {
+    background-color: rgb(190, 125, 250);
+    width: 100%;
+    height: 30px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    background-color:rgb(190, 125, 280);
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color: black;
+    margin-right: 20px;
+}
+nav .nav-right-section .menu{
+    /*Agregar iconos desde CSS */
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    /*Que la imagen esté contenida en el elemento más grande */
+    background-size: contain;
+    width: 25px;
+    height: 20px;
+    /* Para que las imágenes no se repitan */
+    background-repeat: no-repeat;
+}
+
+/* Imagen del usuario*/
+nav .nav-right-section img{
+    /*Redondeamos bordes*/
+    border-radius:100%;
+    width: 35px;
+    height: 40px;
+}
+
+/*----------------------------*/
+/*----------------------------*/
+/*----------------------------*/
+/* MAIN */
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    text-align: center;
+}
+/*Es una clase, por lo que lleva puntito*/
+main .main-logo{
+    background-color: blue;
+    width: 533px;
+    /*Centrar absolutamente gracias a los márgenes automáticos*/
+    margin: 0 auto;
+}
+
+main .main-logo img{
+    height: 90px;
+    margin:0 auto;
+}
+
+main .main-input {
+    background-color: aqua;
+    width: 530px;
+}
+
+main .main-input-container {
+    /*ancho borde || borde-estilo || borde color*/
+    background-color: blueviolet;
+    border: 1px dotted #dfe1e5;
+}
+
+main .main-input input{
+    height: 35px;
+    /*quitar el borde*/
+    border: none;
+    outline: none;
+    width: 450 px;
+}
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search/20.svg);
+    background-size: contain;
+    padding-left: 7%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+main .main-input .micro-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search/20.svg);
+    background-size: contain;
+    padding-left: 7%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
