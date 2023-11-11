@@ -7,8 +7,8 @@ body{
     font-size: 12px;
 }
 .midoria{
-    width: 35px;
-    height: 100%;
+    width: 3px;
+    height: 50%;
     border-radius: 100%;
 }
 
@@ -23,7 +23,7 @@ header nav {
 }
 
 header nav .nav-right-section{
-    background-color:rgb(190, 125, 280);
+    background-color:rgb(190, 125, 250);
     width: 250px;
     height: auto;
     list-style: none;
@@ -74,22 +74,24 @@ main .main-logo{
     width: 533px;
     /*Centrar absolutamente gracias a los márgenes automáticos*/
     margin: 0 auto;
+    margin-bottom: 350px;
 }
 
 main .main-logo img{
-    height: 90px;
+    height: 10px;
     margin:0 auto;
 }
 
 main .main-input {
-    background-color: aqua;
+    background-color:white;
     width: 530px;
 }
 
 main .main-input-container {
     /*ancho borde || borde-estilo || borde color*/
-    background-color: blueviolet;
-    border: 1px dotted #dfe1e5;
+    background-color: white;
+    box-shadow: 0 10px 10px 0 rgb(190, 125, 250);
+    border-radius: 1%;
 }
 
 main .main-input input{
@@ -99,21 +101,53 @@ main .main-input input{
     outline: none;
     width: 450 px;
 }
-main .main-input .search-icon {
-    background-image: url(https://seekicon.com/free-icon-download/search/20.svg);
-    background-size: contain;
-    padding-left: 7%;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+    
 }
-main .main-input .micro-icon {
-    background-image: url(https://seekicon.com/free-icon-download/search/20.svg);
-    background-size: contain;
-    padding-left: 7%;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+main .main-buttons div{
+    display: inline-block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 1px  #000;
+    cursor:pointer;
+    margin:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left:0;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
 }
